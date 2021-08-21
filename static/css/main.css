@@ -1,0 +1,32 @@
+.navbar-nav {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.hr {
+    border: 10px black;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("C:\Users\hudas\OneDrive\Desktop\coding_temple\Law_Firm\static\images\nza_background.jpg");
+}

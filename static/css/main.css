@@ -1,3 +1,9 @@
+body {
+    background-image: url(static\images\nza_background.jp;/);
+    background-repeat: repeat;
+    
+}
+
 .navbar-nav {
     text-align: center;
 }
@@ -19,14 +25,83 @@ li {
 }
 
 .flex-container>div {
-    background-color: DodgerBlue;
-    color: white;
+    background-color: rgb(253, 253, 253);
+    color: black;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-body {
-    background-image: url("C:\Users\hudas\OneDrive\Desktop\coding_temple\Law_Firm\static\images\nza_background.jpg");
+.flex-grow: {
+    background-color: red;
+    border-style: double;
+    width: 50px;
+    border: 15px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.dl {
+    color: black
+}
+
+.dt {
+    color: black
+}
+
+.dd {
+    color: black
+}
+
+#grid {
+    display: grid;
+    grid-gap: 10px;
+    background-color: pink;
+    padding: 10px;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    column-count: 5;
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+
+#item2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#item3 {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#item4 {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#item5 {
+    grid-row: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#item6 {
+    grid-row: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
 }

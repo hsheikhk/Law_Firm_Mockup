@@ -19,8 +19,8 @@ li {
 }
 
 .flex-container>div {
-    background-color: DodgerBlue;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -30,3 +30,4 @@ li {
 body {
     background-image: url("C:\Users\hudas\OneDrive\Desktop\coding_temple\Law_Firm\static\images\nza_background.jpg");
 }
+
